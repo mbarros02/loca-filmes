@@ -17,9 +17,9 @@ public class LocaFilmes {
         Scanner sc = new Scanner(System.in);
         List<Filme> filmes = new ArrayList<>();
 
-        filmes.add(CriarFilme.criarFilme("lancamento", "Vingadores"));
-        filmes.add(CriarFilme.criarFilme("comum", "Toy Story"));
-        filmes.add(CriarFilme.criarFilme("comum", "Matrix"));
+        filmes.add(CriarFilme.criarFilme("adulto", "Doce Vingança"));
+        filmes.add(CriarFilme.criarFilme("infantil", "Toy Story"));
+        filmes.add(CriarFilme.criarFilme("infantil", "Barbie"));
 
         int opc;
 
