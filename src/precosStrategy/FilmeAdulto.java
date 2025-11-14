@@ -1,4 +1,6 @@
-package strategy;
+package precosStrategy;
+
+//Implementa o cálculo de preço de filmes adulto.
 
 public class FilmeAdulto implements Preco{
     @Override
