@@ -15,8 +15,8 @@ public class CriarFilme {
 
     public static Filme criarFilme(String tipo, String titulo) {
         return switch (tipo.toLowerCase()) {
-            case "lancamento" -> new Filme(titulo, new FilmeAdulto());
-            case "comum"      -> new Filme(titulo, new FilmeInfantil());
+            case "adulto"   -> new Filme(titulo, new FilmeAdulto());
+            case "infantil" -> new Filme(titulo, new FilmeInfantil());
             default -> throw new IllegalArgumentException("Tipo de filme inválido");
         };
     }
