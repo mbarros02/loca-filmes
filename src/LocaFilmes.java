@@ -35,7 +35,7 @@ public class LocaFilmes {
             switch (opc) {
                 case 1 -> {
                     System.out.println("\n--- FILMES ---");
-                    int i = 0;
+                    int i = 1;
                     for (Filme f : filmes) {
                         System.out.println(i + " - " + f);
                         i++;
